@@ -1,0 +1,14 @@
+.highlight {
+  width: 200px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid black 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+
+p {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
