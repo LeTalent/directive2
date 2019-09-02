@@ -1,3 +1,11 @@
 <div class="highlight">
-  <p appHighlight highlightColor="yellow">Highlighted in yellow</p>
+    <input type="radio" name="colors" (click)="color='lightgreen'">Green
+    <input type="radio" name="colors" (click)="color='yellow'">Yellow
+    <input type="radio" name="colors" (click)="color='cyan'">Cyan
+
+  <p [appHighlight]="color" highlightColor="Green">Highlight me!</p>
+
+  <p [appHighlight]="color" defaultColor="violet">
+    Highlight me too!
+  </p>
 </div>
